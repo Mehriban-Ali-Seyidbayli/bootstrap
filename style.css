@@ -1,0 +1,265 @@
+*{box-sizing: border-box;}
+
+header, section{
+     overflow-x: hidden; 
+}
+header a{ 
+font-size: 0.9rem;
+color: whitesmoke;
+}
+header{
+    background: #34495e;
+    background: linear-gradient(rgba(33, 71, 151, 0.8), rgba(206, 96, 240, 0.4));
+}
+.nav-link{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 200px;
+    z-index: 1;
+
+}
+.dropdown-content a{ 
+    color: rgb(98, 2, 177);
+    background-color: whitesmoke;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-content a:hover{
+    background-color: whitesmoke;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/*KODLAR ISLEMIR YENIDEN YOXLA*/
+.nav-item:last-child{
+    padding-right: 150px;
+}
+.nav-item{
+    padding: 13px;
+}
+.navbar-brand{
+    padding-left:20px ;
+} 
+.nav-link:hover{
+    color: black;
+}
+
+header .row .col-md-5 img{
+    width: 70%;
+
+}
+ header .row .col-md-7 h5{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.25rem;
+    color: rgb(207, 203, 203);
+}
+header .row .col-md-7 h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: whitesmoke;
+}
+header .row .col-md-7 p{
+    color: rgb(71, 70, 70);
+    font-size: 1rem;
+}
+
+header .row .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+/*-----------SECTION-1-----------*/
+.section-1{
+    padding: 40px 0;
+}
+.section-1 .row .col-md-6 .head img{
+    opacity: 0.8;
+    width: 70%;
+    border-radius: 0.2rem;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    background-color: rgb(247, 240, 240);
+    text-align: left;
+    padding: 50px 30px 60px 30px;
+    border-radius: 3px;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+/*----------SECTION-2-----------*/
+.cover{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url("./Images/head.jpg");
+    background-position: -70rem -80rem;
+    background-size:200% ;
+    position: relative;
+    
+}
+/* ==========================bax================================ */
+.cover .content{
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width:100% ;
+    position: absolute;
+    padding-top: 10rem;
+}
+.cover .content h1{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.cover .content p{
+    color: rgb(219, 213, 213);
+    font-size: 0.9rem;
+}
+.numbers .rectangle{
+    position: relative;
+    width:25vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    padding-top: 30px;
+    box-shadow:1px 2px 40px 0px rgba(255, 0, 0, 0.3) ;
+    z-index: 1;
+
+}
+.numbers{
+    margin-top: -12vh;
+}
+.numbers .rectangle h1{
+    font-size: 4rem;
+    color: rgb(189, 65, 16);
+}
+.numbers .rectangle p{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 700;
+     
+}
+.buy h1{
+    font-size: 3rem;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
+}
+.buy p{
+    font-size: 2vh;
+    padding-bottom:10vh;
+}
+.buy .cards .card{
+    width: 25rem;
+    margin: 3vh;
+    
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+} 
+.card .title {
+    background-color: rgb(178, 214, 245,0.2);
+    padding: 1.8rem 1rem;
+    }
+    .card .card-text{
+        padding: 2.5rem 3rem;
+        color: #34495e;
+    }
+.card-body .pricing{
+    background-color: rgb(178, 214, 245,0.2);
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+.card-body .pricing h1{
+    font-size: 4rem;
+    padding: 2rem 1rem;
+}
+
+
+/*----------SECTION-3-----------*/
+.section-3{
+    background: linear-gradient(rgba(33, 71, 151, 0.8), rgba(206, 96, 240, 0.4));
+    height: 70vh;
+    margin-top:15vh ;
+}
+.section-3 .col-md-12 h1{
+    padding: 2rem 0 1rem 0;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+.section-3 .col-md-12 p{
+    padding: 0 4rem 2rem 4rem;
+    font-size: 1.3rem;
+    color: lightgrey
+}
+.desktop{
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+    margin: 1rem;
+}
+/*----------SECTION-4-----------*/
+.section-4 .container h1{
+    font-size: 6vh;
+    padding-top: 14vh;
+}
+.section-4 .team{
+    margin: 5rem 2rem;
+}
+.section-4 .card{
+    width: 25rem;
+    margin-top:5rem;
+}
+.section-4 .card .card-text{
+    padding: 0.5rem;
+}
+.section-4 .card .card-body a{
+    font-size: 1.3rem;
+}
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+/*----------FOOTER-----------*/
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    padding: 14vh 18vh;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    border: none !important;
+    background: linear-gradient(rgba(33, 71, 151, 0.8), rgba(206, 96, 240, 0.4));
+}
+.column i{
+    color: #dd2476;
+}
+.column i + i{
+padding: 0 0.4rem;
+}
